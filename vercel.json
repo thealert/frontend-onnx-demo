@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/frontend-onnx-demo/assets/:path*",
+      "destination": "/assets/:path*"
+    },
+    {
+      "source": "/frontend-onnx-demo/models/:path*",
+      "destination": "/models/:path*"
+    }
+  ]
+}
